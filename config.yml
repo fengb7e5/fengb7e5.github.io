@@ -1,0 +1,137 @@
+baseURL: 'fengb7e5.top'
+languageCode: zh-cn # languageCode: en-us
+title: fengb7e5's Blog
+theme: PaperMod
+
+paginate: 10  # 首页每页显示的文章数    
+enableInlineShortcodes: true  # 是否启用内联短代码解析
+enableRobotsTXT: true  # 是否启用或禁用自动生成 robots.txt 文件
+buildDrafts: false  # 用于构建并生成包括草稿（drafts）在内的所有内容
+buildFuture: false  # 用于构建并生成未来（future）日期的内容
+buildExpired: false  # 用于构建并生成过期（expired）的内容
+publishDir: docs  # 生产目录名
+enableEmoji: true  # 启动emoji
+pygmentsUseClasses: true  # 用于控制代码语法高亮所使用的 CSS 类
+
+
+minify:
+    disableXML: true  # 对 XML 文件进行最小化处理
+    # minifyOutput: true
+
+menu: # 导航栏
+  main:
+
+      - identifier: search
+        name: 🔍 搜索
+        url: /search/
+        weight: 1
+      - identifier: posts
+        name: 🧩 分类
+        url: posts
+        weight: 2
+      - identifier: archives
+        name: ⏱  时间轴
+        url: /archives
+        weight: 8
+      - identifier: tags
+        name: 🔖 标签
+        url: /tags
+        weight: 9
+      - identifier: about
+        name: 👨‍🚀 关于
+        url: /about
+        weight: 10
+
+markup: # 代码高亮
+    goldmark:
+        renderer:
+            unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话
+    highlight:
+        # anchorLineNos: true     
+        codeFences: true  # 代码围栏功能     
+        guessSyntax: true # 猜测语法
+        lineNos: true # 行号
+        style: fruity
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+# 这个要在最后
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "The  flow of ideas usually starts after you get started"
+    # author: Hua
+    # 设置默认主题颜色方案 auto system auto-dark auto-light dark light 
+    defaultTheme: auto
+    # disableThemeToggle: true  # 静止主题切换功能  
+    ShowShareButtons: true  # 是否显示分享按钮
+    ShareButtons: ["facebook", "telegram"] # To customize which share buttons to be enabled on page 
+    ShowReadingTime: true  # 是否显示阅读时间
+    math: true  # 数学公式
+    # disableSpecial1stPost: true  # 禁用特殊的第一篇文章样式  
+    displayFullLangName: true  # 是否显示完整的语言名称   
+    ShowPostNavLinks: true  # 是否显示文章导航链接   
+    ShowBreadCrumbs: true  # 是否显示面包屑导航 ，例如 “Home > Category > Subcategory > Page”   
+    ShowCodeCopyButtons: true  # 是否显示代码复制按钮 
+    ShowRssButtonInSectionTermList: false  # 是否在网站的特定区块（section）和分类（term）列表中显示 RSS 订阅按钮    
+    ShowWordCounts: true  # 文章字数统计 未显示？？？    
+    ShowToc: true  # 是否显示文章的目录（Table of Contents，简称 TOC）    
+    TocOpen: true  # 自动展开目录
+    # comments: false
+    # images: ["papermod-cover.png"]
+    enableInlineShortcodes : true  # 启动公式
+    timezone: "Asia/Shanghai"  # 设置时区  
+    assets:  # 网站头像  路径/static/images
+      favicon: "img/H.jpg"
+      favicon16x16:  "img/H.jpg"
+      favicon32x32:  "img/H.jpg"
+      apple_touch_icon:  "img/H.jpg"
+      safari_pinned_tab:  "img/H.jpg"
+      disableFingerprinting: true        
+    DateFormat: "2006-01-02"  # 日期格式
+    StartYear: 2020 # 底部开始年份
+    ShowLastMod: true  # 显示修改时间
+    # 不蒜子统计 https://zhuanlan.zhihu.com/p/649952987
+    busuanzi:
+      enable: false
+    # 左上角内容
+    label:
+      text: "主页"
+      icon: img/H.jpg
+      iconHeight: 45
+    # 设置封面图片的隐藏属性
+    cover:      
+      hidden: true # 这将在结构化数据中显示封面图片，但在其他地方隐藏它      
+      hiddenInList: true # 这将在列表页和首页上隐藏封面图片      
+      hiddenInSingle: true # 这将在单独的页面上隐藏封面图片    
+    # 搜索相关
+    fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]    
+    # 主题配置
+    homeInfoParams:
+        Title: "👋 Welcome Stranger!"
+        Content: >
+            - 深自缄默，如云漂泊
+
+            - ***Deeply silent, Drifting like a cloud*** 
+
+            - ***"立于皓月之边,不弱星光之势"***            
+    socialIcons:
+      - name: "Github"
+        url: "https://github.com/fengb7e5"
+      - name: bilibili
+        url: "https://b23.tv/K1b5FmK"
+      - name: Wechat
+        url: "img/wechat.jpg"
+      - name: QQ
+        url:  "img/qq.jpg"
+      - name: "email"
+        url: "mailto://fengb7e5@163.com"
+
