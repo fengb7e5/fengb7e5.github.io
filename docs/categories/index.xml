@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on fengb7e5&#39;s Blog</title>
-    <link>https://leifenghuo.gitee.io/categories/</link>
+    <link>fengb7e5.top/categories/</link>
     <description>Recent content in Categories on fengb7e5&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <atom:link href="https://leifenghuo.gitee.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="fengb7e5.top/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

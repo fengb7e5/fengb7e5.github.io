@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>📚 文章 on fengb7e5&#39;s Blog</title>
-    <link>https://leifenghuo.gitee.io/posts/</link>
+    <link>fengb7e5.top/posts/</link>
     <description>Recent content in 📚 文章 on fengb7e5&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 28 Jan 2024 13:25:41 +0800</lastBuildDate>
-    <atom:link href="https://leifenghuo.gitee.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="fengb7e5.top/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
