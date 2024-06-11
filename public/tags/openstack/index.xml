@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openstack on Jasper&#39;s Blog</title>
+    <link>http://localhost:1313/tags/openstack/</link>
+    <description>Recent content in Openstack on Jasper&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Jasper</copyright>
+    <lastBuildDate>Tue, 11 Jun 2024 15:05:44 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>openstack-T版搭建</title>
+      <link>http://localhost:1313/posts/openstack-t%E7%89%88%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Tue, 11 Jun 2024 15:05:44 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/openstack-t%E7%89%88%E6%90%AD%E5%BB%BA/</guid>
+      <description>（以下所有密码统一为 feng） # 搭建前基础配置 # 搭建环境 # 节点 eth0, nat 网络 eth1, 仅主机模式 vcpu memory disk1 disk2 controller 192.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
